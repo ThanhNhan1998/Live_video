@@ -70,4 +70,15 @@ Step 3: Create your database and config in .env
 
 Step 4: php artisan migrate --seed
 
+Step 5: php artisan key:generate
+
+Step 6: Go to https://pusher.com and register your application
+
+Step 7: Open .env and fill 
+
+PUSHER_APP_ID=
+PUSHER_APP_KEY=
+PUSHER_APP_SECRET=
+PUSHER_APP_CLUSTER=mt1
+
 Finally run "php artisan serve" and Test: http://localhost:8000
